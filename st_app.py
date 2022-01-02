@@ -64,7 +64,7 @@ if text != '':
 			colored_text += ' ' + data_words[i]
 	colored_text += '</h>'
 	st.markdown(colored_text, unsafe_allow_html=True)
-	st.markdown(f'<h><span class = "bold">Rate: </span>{round(score, 4)*100}%</h>', unsafe_allow_html=True)
+	st.markdown(f'<h><span class = "bold">Plagiarism Rate: </span>{round(score, 4)*100}%</h>', unsafe_allow_html=True)
 	st.markdown(f'<h><span class = "bold">List of plagiarized url:</span></h>', unsafe_allow_html=True)
 	for url in urls:
 		st.write(url)
