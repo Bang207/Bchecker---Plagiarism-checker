@@ -24,7 +24,7 @@ st.markdown("<h><span class = 'header bold'>Bchecker - A Plagiarism Checker</spa
 menu = st.sidebar.selectbox('Menu', ('Home', 'Image', 'Text'))
 text = ''
 if menu == 'Home':
-	st.subheader('Here are the guideline:')
+	st.subheader('Here is the guideline:')
 	st.write("* On the left, there is a selection box for you to choose.")
 	st.write('* Choose "Image" if you want to upload your image file.')
 	st.write('* Choose "Text" if you want to copy and paste your text.')
