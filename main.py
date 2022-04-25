@@ -28,7 +28,7 @@ def remove_tags(html):
 def clean_text(text):
 	# Remove tags
 	text = remove_tags(text)
-	text.replace('Replacement Chacracter'.upper(), '')
+	text.replace('Replacement Character'.upper(), '')
 	# Tokenize
 	tokens = nltk.word_tokenize(text)
 	filtered_words = [w for w in tokens if w in ['a', '.', ',', ':', ';', '?', "'s"] or
