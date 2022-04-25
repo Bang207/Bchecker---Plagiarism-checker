@@ -20,7 +20,7 @@ easy_install pip
 * Then install the required libraries in requirement.txt.
 
 ```bash 
-pip install [package]
+pip install -r requirement.txt
 ```
 # Python scripts
 
